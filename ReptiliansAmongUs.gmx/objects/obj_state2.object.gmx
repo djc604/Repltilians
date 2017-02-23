@@ -109,7 +109,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.day += 1;
+            <string>global.state += 1;
+global.day += 1;
 room_goto(Travelling)
 </string>
           </argument>
