@@ -80,7 +80,7 @@
       <sprite>sprites\spr_red_shoot_left</sprite>
       <sprite>sprites\spr_red_shoot_right</sprite>
       <sprite>sprites\spr_red_run_left_down</sprite>
-      <sprite>sprites\_red_run_right_down</sprite>
+      <sprite>sprites\spr_red_run_right_down</sprite>
     </sprites>
     <sprite>sprites\spr_car</sprite>
   </sprites>
