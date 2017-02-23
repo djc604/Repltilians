@@ -67,12 +67,16 @@
       <sprite>sprites\spr_girl_run_right</sprite>
       <sprite>sprites\spr_girl_shoot_backleft</sprite>
       <sprite>sprites\spr_girl_shoot_backright</sprite>
+      <sprite>sprites\spr_girl_shoot_front_left</sprite>
+      <sprite>sprites\spr_girl_shoot_front_right</sprite>
     </sprites>
     <sprites name="gunman3">
       <sprite>sprites\spr_red_gun_left</sprite>
       <sprite>sprites\spr_red_gun_right</sprite>
       <sprite>sprites\spr_red_run_right</sprite>
       <sprite>sprites\spr_red_run_left</sprite>
+      <sprite>sprites\spr_red_shoot_left</sprite>
+      <sprite>sprites\spr_red_shoot_right</sprite>
     </sprites>
     <sprite>sprites\spr_car</sprite>
   </sprites>
