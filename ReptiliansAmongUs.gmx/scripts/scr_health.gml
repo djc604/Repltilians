@@ -19,7 +19,12 @@ if (hp > 1) && (hp < 33)
     status = "Severely Injured";
 }
 
-if (hp = 0)
+if (hp <= 0)
 {
     status = "Dead";
+}
+
+if (hp < 0)
+{
+    hp = 0
 }

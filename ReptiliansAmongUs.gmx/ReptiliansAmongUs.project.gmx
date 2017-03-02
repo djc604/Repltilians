@@ -102,7 +102,6 @@
     <script>scripts\scr_createstate.gml</script>
     <script>scripts\scr_stepstate.gml</script>
     <script>scripts\scr_createoverworld.gml</script>
-    <script>scripts\scr_stepoverworld.gml</script>
     <script>scripts\scr_stateroomgoto.gml</script>
     <script>scripts\scr_text.gml</script>
     <script>scripts\scr_health.gml</script>
@@ -119,6 +118,7 @@
       <object>objects\controller</object>
       <object>objects\obj_DayCounter</object>
       <object>objects\cont_menu</object>
+      <object>objects\cont_stats</object>
     </objects>
     <objects name="States">
       <object>objects\obj_spec1</object>

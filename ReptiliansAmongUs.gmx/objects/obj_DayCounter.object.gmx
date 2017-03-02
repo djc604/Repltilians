@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>draw_set_font(font1)
 draw_set_color(c_red)
-draw_text(x, y,string(global.day))
+draw_text(x, y, "Day " + string(global.day))
 </string>
           </argument>
         </arguments>

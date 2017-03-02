@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.state = 0
+            <string>///set the day
+
+global.state = 0
 global.day = 1
 </string>
           </argument>
@@ -49,7 +51,9 @@ global.day = 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (room = USMap)
+            <string>///draw the states
+
+if (room = USMap)
 {
     if (global.state = 0)
     { 

@@ -109,8 +109,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.day += 1;
-room_goto(Travelling);
+            <string>room_goto(Travelling2);
+
 </string>
           </argument>
         </arguments>

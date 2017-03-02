@@ -25,8 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.gas = 100
-global.money = 500
+            <string>///set the gas use
+
+global.gu = 0;
 </string>
           </argument>
         </arguments>
@@ -49,7 +50,8 @@ global.money = 500
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.day += 1;
+            <string>///minus the gas use from gas
+//global.gas -= global.gasuse;
 </string>
           </argument>
         </arguments>
