@@ -31,8 +31,8 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bg_clouds" x="0" y="268" htiled="-1" vtiled="0" hspeed="-3" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="0" name="bg_trees" x="0" y="468" htiled="-1" vtiled="0" hspeed="-8" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bg_clouds" x="0" y="268" htiled="-1" vtiled="0" hspeed="-1" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bg_trees" x="0" y="468" htiled="-1" vtiled="0" hspeed="-6" vspeed="0" stretch="0"/>
     <background visible="-1" foreground="0" name="bg_road" x="0" y="620" htiled="-1" vtiled="0" hspeed="-13" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -53,7 +53,7 @@
   <instances>
     <instance objName="obj_car" x="625" y="623" name="inst_F4A31F6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner" x="32" y="416" name="inst_72295A5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu2" x="1088" y="96" name="inst_AAD951D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu2" x="1152" y="608" name="inst_AAD951D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cont_travel" x="256" y="128" name="inst_BC06E02F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

@@ -139,8 +139,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.day += 1;
-global.state += 1;
+            <string>global.state += 1;
 room_goto(Battle1)
 </string>
           </argument>
