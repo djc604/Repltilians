@@ -14,7 +14,7 @@
     <sprite>sprites\Stand_Right_spr</sprite>
     <sprite>sprites\Stand_Left_spr</sprite>
     <sprite>sprites\Stand_Back_spr</sprite>
-    <sprites name="gunman">
+    <sprites name="Dimitri">
       <sprite>sprites\spr_Gun_run_left</sprite>
       <sprite>sprites\spr_Gun_run_right</sprite>
       <sprite>sprites\spr_Gun_run_up</sprite>
@@ -25,7 +25,7 @@
       <sprite>sprites\spr_big_shoot_left</sprite>
       <sprite>sprites\spr_big_shoot_right</sprite>
     </sprites>
-    <sprites name="gunman2">
+    <sprites name="Linus">
       <sprite>sprites\run_left_spr</sprite>
       <sprite>sprites\run_right_spr</sprite>
       <sprite>sprites\shoot_left_spr</sprite>
@@ -58,7 +58,7 @@
         <sprite>sprites\spr_spec1o</sprite>
       </sprites>
     </sprites>
-    <sprites name="gungirl">
+    <sprites name="Ivanka">
       <sprite>sprites\spr_girl_backrun_left</sprite>
       <sprite>sprites\spr_girl_backrun_right</sprite>
       <sprite>sprites\spr_girl_run_left</sprite>
@@ -68,7 +68,7 @@
       <sprite>sprites\spr_girl_shoot_front_left</sprite>
       <sprite>sprites\spr_girl_shoot_front_right</sprite>
     </sprites>
-    <sprites name="gunman3">
+    <sprites name="Remi">
       <sprite>sprites\spr_red_shoot_up_right</sprite>
       <sprite>sprites\spr_red_shoot_up_left</sprite>
       <sprite>sprites\spr_red_gun_left</sprite>
