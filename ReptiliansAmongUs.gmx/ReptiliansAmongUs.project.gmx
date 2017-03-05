@@ -85,6 +85,7 @@
       <sprite>sprites\spr_menu</sprite>
       <sprite>sprites\spr_back</sprite>
       <sprite>sprites\spr_travel</sprite>
+      <sprite>sprites\spr_gas</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -140,6 +141,7 @@
       <object>objects\obj_menu</object>
       <object>objects\obj_menu2</object>
       <object>objects\obj_travel</object>
+      <object>objects\obj_gasbuy</object>
     </objects>
     <object>objects\obj_car</object>
     <object>objects\obj_city</object>

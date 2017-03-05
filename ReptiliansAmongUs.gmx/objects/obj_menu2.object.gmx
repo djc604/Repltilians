@@ -90,8 +90,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.day += 1;
-room_goto(Menu2)
+            <string>room_goto(Menu2)
 </string>
           </argument>
         </arguments>

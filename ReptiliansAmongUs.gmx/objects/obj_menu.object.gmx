@@ -91,7 +91,6 @@
           <argument>
             <kind>1</kind>
             <string>global.state += 1;
-global.day += 1;
 room_goto(Menu)
 </string>
           </argument>
