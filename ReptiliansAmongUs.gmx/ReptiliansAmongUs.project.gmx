@@ -87,6 +87,10 @@
       <sprite>sprites\spr_travel</sprite>
       <sprite>sprites\spr_gas</sprite>
     </sprites>
+    <sprite>sprites\spr_portrait_1</sprite>
+    <sprite>sprites\spr_portrait_2</sprite>
+    <sprite>sprites\spr_portrait_3</sprite>
+    <sprite>sprites\spr_portrait_4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
