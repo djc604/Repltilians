@@ -87,10 +87,10 @@
       <sprite>sprites\spr_travel</sprite>
       <sprite>sprites\spr_gas</sprite>
     </sprites>
-    <sprite>sprites\spr_portrait_1</sprite>
-    <sprite>sprites\spr_portrait_2</sprite>
-    <sprite>sprites\spr_portrait_3</sprite>
-    <sprite>sprites\spr_portrait_4</sprite>
+    <sprite>sprites\spr_Dmitri</sprite>
+    <sprite>sprites\spr_Linus</sprite>
+    <sprite>sprites\spr_Remi</sprite>
+    <sprite>sprites\spr_Ivanka</sprite>
     <sprite>sprites\spr_prez1</sprite>
     <sprite>sprites\spr_prez2</sprite>
     <sprites name="icons">

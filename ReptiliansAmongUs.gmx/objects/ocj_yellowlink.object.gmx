@@ -27,10 +27,7 @@
             <kind>1</kind>
             <string>image_index = 1
 
-if (room = Travelling) || (room = Travelling2)
-{
-    instance_create (x,y,obj_text2)
-}
+instance_create (x,y,obj_text2)
 
 image_index = 0
 

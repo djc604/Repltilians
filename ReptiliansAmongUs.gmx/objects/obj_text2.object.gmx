@@ -25,9 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string("Hello I've something to tell you...")
-text2 = string ("fuck you asshole, get out")
-text3 = string ("Just kidding bro")
+            <string>text1 = string("You are Canadien, oui Linus?")
+text2 = string ("Yeah, why?")
+text3 = string ("Alors pourquoi tu ne parles pas Français?")
+text4 = string ("Im from Vancouver")
+text5 = string ("Ah, that makes sense")
 
 talk = 1
 
@@ -67,6 +69,14 @@ if (talk = 3)
 {
     out = string_copy (text3,1,spd)
 }
+if (talk = 4)
+{
+    out = string_copy (text4,1,spd)
+}
+if (talk = 5)
+{
+    out = string_copy (text5,1,spd)
+}
 
 spd += 0.5
 
@@ -77,7 +87,7 @@ if keyboard_check_pressed(mb_left)
 }
 
 
-if (talk &gt; 3)
+if (talk &gt; 5)
 {
         instance_destroy()
 }
@@ -110,20 +120,32 @@ draw_set_halign(fa_left)
 
 if (talk = 1)
 {
-    draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+90,view_yview[0]+675-75, out)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
 }
 
 if (talk = 2)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+90,view_yview[0]+675-75, out)
+    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
 }
 
 if (talk = 3)
 {
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+}
+
+if (talk = 4)
+{
     draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+90,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+}
+
+if (talk = 5)
+{
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
 }
 
 </string>
