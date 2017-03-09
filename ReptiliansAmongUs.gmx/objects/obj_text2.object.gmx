@@ -25,10 +25,62 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> alpha = 0;
- print = "";
- time = 0;
- depth = depth - instance_number(obj_text);
+            <string>text1 = string("Hello I've something to tell you...")
+text2 = string ("fuck you asshole, get out")
+text3 = string ("Just kidding bro")
+
+talk = 1
+
+out = string("")
+spd = 0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (talk = 1)
+{
+    out = string_copy (text1,1,spd)
+}
+if (talk = 2)
+{
+    out = string_copy (text2,1,spd)
+}
+if (talk = 3)
+{
+    out = string_copy (text3,1,spd)
+}
+
+spd += 0.5
+
+if keyboard_check_pressed(mb_left)
+{
+    talk += 1
+    spd = 0
+}
+
+
+if (talk &gt; 3)
+{
+        instance_destroy()
+}
 </string>
           </argument>
         </arguments>
@@ -51,54 +103,29 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Add letters over time
-if (time &lt; text_length){
- time +=spd;
- print = string_copy(text,0,time);
+            <string>draw_set_font(fnt)
+draw_set_color(c_white)
+draw_set_valign(fa_top)
+draw_set_halign(fa_left)
+
+if (talk = 1)
+{
+    draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+90,view_yview[0]+675-75, out)
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Render textbox and text
-draw_set_alpha(alpha);
-if (alpha &lt; 1) alpha += spd/10; else alpha = 1;
 
-draw_set_font(font);
-draw_set_color(c_gray);
-draw_rectangle(x,y,x+boxwidth,y+boxheight,0);
-draw_set_color(c_black);
-draw_rectangle(x,y,x+boxwidth,y+boxheight,1);
+if (talk = 2)
+{
+    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+90,view_yview[0]+675-75, out)
+}
 
-draw_set_color(c_white);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
+if (talk = 3)
+{
+    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+90,view_yview[0]+675-75, out)
+}
 
-draw_text_ext(
- x + padding,
- y + padding,
- print,
- font_size+(font_size/2),
- maxlength
-);
-
-draw_set_alpha(1);
 </string>
           </argument>
         </arguments>

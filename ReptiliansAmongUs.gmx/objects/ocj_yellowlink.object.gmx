@@ -25,21 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (mouse_check_button_released(mb_left))
+            <string>image_index = 1
+
+if (room = Travelling) || (room = Travelling2)
 {
-    var str;
-    switch (room = Travelling) || (room = Travelling2)
-    {
-        case 0: str = "Remi- You are Canadien, oui Linus?#Linus- Yeah, why?#Remi- Alors pourquoi tu ne parles pas Français ?#Linus- I’m from Vancouver.#Remi- Ah, that makes sense." ;break;
-        case 1: str = "Dimitri- can we stop yet? I have to pee.#Ivanka- we stopped like 10 minutes ago, at this rate we'll never make it to DC.#Dimitri- … but I really must go.#Ivanka- I said no and that's final. Think of something else, Dimitri.#Dimitri- I'll use empty vodka bottle.#Ivanka-.... Is the empty vodka bottle the reason you have to pee?#Dimitri- possibly.#Ivanka- *sighs*";break;
-        case 2: str = "Remi- Ivanka, please tell me why Americans like such big portions. In France the largest meal at McDonald's is equal to what the Americans smallest is.#Ivanka- BECAUSE EVERYTHING IS BETTER IN AMERICA. WE ARE THE LAND OF THE FREE AND WE DO THINGS OUR WAY DAMMIT. *Starts singing* AMERICA! FUCK YEAH! *continues singing the song*#Linus- great, thanks Remi, now that she's started she won't shut up for the next few hours. It is much appreciated.#Remi- I honestly don't know what is happening. I asked a simple question. ";break;
-        case 3: str = "Ivanka- Did someone just fart...?";break;
-        case 4: str = "Uhhhh....";break;
-        default: str = "Something went wrong!";break;
-    }
-    scr_text(str,1,x,y);
+    instance_create (x,y,obj_text2)
 }
 
+image_index = 0
+
+image_speed = 0
+depth = -y
 </string>
           </argument>
         </arguments>

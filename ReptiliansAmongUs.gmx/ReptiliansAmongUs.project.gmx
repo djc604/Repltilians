@@ -93,6 +93,13 @@
     <sprite>sprites\spr_portrait_4</sprite>
     <sprite>sprites\spr_prez1</sprite>
     <sprite>sprites\spr_prez2</sprite>
+    <sprites name="icons">
+      <sprite>sprites\spr_event</sprite>
+      <sprite>sprites\spr_fuel</sprite>
+      <sprite>sprites\spr_hospital</sprite>
+      <sprite>sprites\spr_shop</sprite>
+    </sprites>
+    <sprite>sprites\spr_textbox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
@@ -123,6 +130,7 @@
       <object>objects\cont_travel</object>
       <object>objects\cont_battle</object>
       <object>objects\controller</object>
+      <object>objects\cont_icons</object>
       <object>objects\obj_DayCounter</object>
       <object>objects\cont_menu</object>
       <object>objects\cont_gas</object>
@@ -152,13 +160,23 @@
     </objects>
     <object>objects\obj_car</object>
     <object>objects\obj_city</object>
-    <object>objects\obj_text</object>
+    <object>objects\obj_texttest</object>
     <object>objects\obj_spawner</object>
     <objects name="Characters">
       <object>objects\obj_demi</object>
       <object>objects\obj_remi</object>
       <object>objects\obj_linus</object>
       <object>objects\obj_ivanka</object>
+    </objects>
+    <objects name="Icons">
+      <object>objects\obj_fuel</object>
+      <object>objects\obj_event</object>
+      <object>objects\obj_hospital</object>
+      <object>objects\obj_shop</object>
+    </objects>
+    <objects name="NPC">
+      <object>objects\obj_text2</object>
+      <object>objects\ocj_yellowlink</object>
     </objects>
   </objects>
   <rooms name="rooms">
