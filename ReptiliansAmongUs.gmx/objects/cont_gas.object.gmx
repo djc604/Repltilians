@@ -51,15 +51,8 @@ global.gasuse = 50;
             <kind>1</kind>
             <string>draw_set_font(fnt);
 
-if(room = Travelling) || (room = Travelling2)
-{
-    draw_text(x,y, "You have lost " + string(global.gasuse) + " gas");
-}
-
-if(room = Menu) || (room = Menu2)
-{
-    draw_text(x,y, "You have  " + string(global.gas) + " gas#");
-}
+draw_text(x,y, "You have lost " + string(global.gasuse) + " gas");
+draw_text(x,y, "##You have  " + string(global.gas) + " gas#");
 </string>
           </argument>
         </arguments>

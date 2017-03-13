@@ -109,7 +109,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(Travelling)
+            <string>room_goto(Travelling_state2_F)
 </string>
           </argument>
         </arguments>

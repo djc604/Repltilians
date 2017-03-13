@@ -98,6 +98,11 @@
       <sprite>sprites\spr_fuel</sprite>
       <sprite>sprites\spr_hospital</sprite>
       <sprite>sprites\spr_shop</sprite>
+      <sprites name="special">
+        <sprite>sprites\spr_damon</sprite>
+        <sprite>sprites\spr_justin</sprite>
+        <sprite>sprites\spr_mchaela</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_textbox</sprite>
   </sprites>
@@ -153,9 +158,11 @@
     </objects>
     <objects name="buttons">
       <object>objects\obj_overworld</object>
-      <object>objects\obj_menu</object>
-      <object>objects\obj_menu2</object>
-      <object>objects\obj_travel</object>
+      <object>objects\obj_gotoshop</object>
+      <object>objects\obj_gotofuel</object>
+      <object>objects\obj_gotoevent</object>
+      <object>objects\obj_gototravel</object>
+      <object>objects\obj_gotohosp</object>
       <object>objects\obj_gasbuy</object>
     </objects>
     <object>objects\obj_car</object>
@@ -173,20 +180,52 @@
       <object>objects\obj_event</object>
       <object>objects\obj_hospital</object>
       <object>objects\obj_shop</object>
+      <object>objects\obj_damon</object>
+      <object>objects\obj_justin</object>
+      <object>objects\obj_mchaela</object>
     </objects>
     <objects name="NPC">
-      <object>objects\obj_text2</object>
-      <object>objects\ocj_yellowlink</object>
+      <object>objects\dial_stat1</object>
+      <object>objects\dial_stat2</object>
+      <object>objects\obj_yellowlink</object>
+      <object>objects\obj_yellowlink2</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\USMap</room>
-    <room>rooms\Travelling</room>
     <room>rooms\Travelling2</room>
-    <room>rooms\Menu</room>
-    <room>rooms\Menu2</room>
     <room>rooms\Battle1</room>
     <room>rooms\test</room>
+    <rooms name="State1">
+      <room>rooms\Travelling_state1_E</room>
+      <room>rooms\Event_state1</room>
+      <room>rooms\Travelling_state1_S2</room>
+      <room>rooms\Shop_state1_S2</room>
+      <room>rooms\Travelling_state1_S</room>
+      <room>rooms\Shop_state1</room>
+      <room>rooms\Travelling_state1_H</room>
+      <room>rooms\Hosp_state1</room>
+    </rooms>
+    <rooms name="State2">
+      <room>rooms\Travelling_state2_F</room>
+      <room>rooms\Fuel_state2</room>
+      <room>rooms\Travelling_state2_H</room>
+      <room>rooms\Hosp_state2</room>
+      <room>rooms\Travelling_state2_S2</room>
+      <room>rooms\Shop_state2_S2</room>
+      <room>rooms\Travelling_state2_E</room>
+      <room>rooms\Event_state2</room>
+    </rooms>
+    <rooms name="State3">
+      <room>rooms\Travelling_state3_E</room>
+      <room>rooms\Event_state3</room>
+      <room>rooms\Travelling_state3_H</room>
+      <room>rooms\Hosp_state3</room>
+      <room>rooms\Travelling_state3_S</room>
+      <room>rooms\Shop_state3</room>
+      <room>rooms\Travelling_state3_F</room>
+      <room>rooms\Fuel_state3</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

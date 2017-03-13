@@ -50,7 +50,7 @@
             <kind>1</kind>
             <string>draw_set_font(fnt);
 
-if(room = Menu) || (room = Menu2)
+if(room = Shop_state1) || (room = Shop_state1_S2)
 {
     draw_text(x,y, "You have  " + string(global.money) + " cash");
 }
