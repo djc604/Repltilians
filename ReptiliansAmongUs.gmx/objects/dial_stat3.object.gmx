@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string("You are Canadien, oui Linus?")
-text2 = string ("Yeah, why?")
-text3 = string ("Alors pourquoi tu ne parles pas#Français?")
-text4 = string ("Im from Vancouver")
-text5 = string ("Ah, that makes sense")
+            <string>text1 = string("Ivanka, please tell me why#Americans like such big portions. In#France the largest meal at#McDonald's is equal to what the#Americans smallest is.")
+text2 = string ("BECAUSE EVERYTHING IS BETTER#IN AMERICA. WE ARE THE LAND#OF THE FREE AND WE DO THINGS#OUR WAY DAMMIT.")
+text3 = string ("*Starts singing*#AMERICA! FUCK YEAH!#*continues singing the song")
+text4 = string ("great, thanks Remi, now#that she's started she won't shut up#for the next few hours. It#is much appreciated")
+text5 = string ("I honestly don't know what#is happening. I asked a simple#question")
 
 talk = 1
 
@@ -121,31 +121,30 @@ draw_set_halign(fa_left)
 if (talk = 1)
 {
     draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+125,view_yview[0]+675-125, out)
 }
 
 if (talk = 2)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+125,view_yview[0]+675-125, out)
 }
 
 if (talk = 3)
 {
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+125,view_yview[0]+675-100, out)
 }
 
 if (talk = 4)
 {
     draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+125,view_yview[0]+675-125, out)
 }
-
 if (talk = 5)
 {
     draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+125,view_yview[0]+675-100, out)
 }
 
 </string>

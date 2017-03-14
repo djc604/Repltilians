@@ -110,7 +110,7 @@
           <argument>
             <kind>1</kind>
             <string>global.state += 1;
-room_goto(Battle1)
+room_goto(Battle2)
 </string>
           </argument>
         </arguments>

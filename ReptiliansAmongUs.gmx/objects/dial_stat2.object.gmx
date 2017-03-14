@@ -25,12 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string("Can we stop yet? I have to pee?")
-text2 = string ("We stopped like 10 minutes ago, at this rate we'll never make it to DC")
-text3 = string ("… but I really must go")
-text4 = string ("I said no and that's final. Think of something else, Dimitri")
+            <string>text1 = string("Can we stop yet? I have to pee")
+text2 = string ("We stopped like 10 minutes ago,#at this rate we'll never make it to#DC...")
+text3 = string ("... but I really must go")
+text4 = string ("I said no and that's final.#Think of something else, Dimitri")
 text5 = string ("I'll use empty vodka bottle")
-text6 = string (".... Is the empty vodka bottle the reason you have to pee?")
+text6 = string ("... Is the empty vodka bottle#the reason you have to pee?")
 text7 = string ("Possibly")
 text8 = string ("*sighs*")
 
@@ -95,7 +95,7 @@ if (talk = 8)
 
 spd += 0.5
 
-if keyboard_check_pressed(mb_left)
+if (mouse_check_button_pressed(mb_left))
 {
     talk += 1
     spd = 0
@@ -142,7 +142,7 @@ if (talk = 1)
 if (talk = 2)
 {
     draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 3)

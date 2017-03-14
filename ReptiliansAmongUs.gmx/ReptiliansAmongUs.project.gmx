@@ -105,6 +105,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_textbox</sprite>
+    <sprite>sprites\spr_HUD</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
@@ -113,6 +114,8 @@
     <background>background\bg_road</background>
     <background>background\bg_trees</background>
     <background>background\bg_clouds</background>
+    <background>background\bg_shop</background>
+    <background>background\bg_hosp</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -134,12 +137,15 @@
       <object>objects\contr_overworld</object>
       <object>objects\cont_travel</object>
       <object>objects\cont_battle</object>
+      <object>objects\cont_battle2</object>
+      <object>objects\cont_battle3</object>
       <object>objects\controller</object>
       <object>objects\cont_icons</object>
       <object>objects\obj_DayCounter</object>
       <object>objects\cont_menu</object>
       <object>objects\cont_gas</object>
       <object>objects\cont_money</object>
+      <object>objects\cont_event</object>
     </objects>
     <objects name="States">
       <object>objects\obj_spec1</object>
@@ -171,8 +177,8 @@
     <object>objects\obj_spawner</object>
     <objects name="Characters">
       <object>objects\obj_demi</object>
-      <object>objects\obj_remi</object>
       <object>objects\obj_linus</object>
+      <object>objects\obj_remi</object>
       <object>objects\obj_ivanka</object>
     </objects>
     <objects name="Icons">
@@ -187,14 +193,19 @@
     <objects name="NPC">
       <object>objects\dial_stat1</object>
       <object>objects\dial_stat2</object>
+      <object>objects\dial_stat3</object>
       <object>objects\obj_yellowlink</object>
       <object>objects\obj_yellowlink2</object>
+      <object>objects\obj_yellowlink3</object>
     </objects>
+    <object>objects\obj_HUD</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\USMap</room>
     <room>rooms\Travelling2</room>
     <room>rooms\Battle1</room>
+    <room>rooms\Battle2</room>
+    <room>rooms\Battle3</room>
     <room>rooms\test</room>
     <rooms name="State1">
       <room>rooms\Travelling_state1_E</room>

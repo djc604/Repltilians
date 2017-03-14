@@ -52,7 +52,7 @@ hashappened = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>damagetaken = random_range(10,20) 
+            <string>damagetaken = random_range(30,40) 
 
 if(hashappened = false)
 {
@@ -62,8 +62,6 @@ if(hashappened = false)
     obj_ivanka.hp -= (damagetaken - obj_ivanka.weapondefence)
     hashappened=true
 }
-
-
 </string>
           </argument>
         </arguments>

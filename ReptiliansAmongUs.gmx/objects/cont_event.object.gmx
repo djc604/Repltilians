@@ -2,7 +2,7 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,10 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.day += 1;
-global.damage = 0;
-global.weapondefence = 5;
-damagetaken = 0
+            <string>global.rep = 3
 hashappened = false
 </string>
           </argument>
@@ -52,18 +49,53 @@ hashappened = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>damagetaken = random_range(10,20) 
-
-if(hashappened = false)
+            <string>if(room=Event_state1)
 {
-    obj_demi.hp -= (damagetaken - obj_demi.weapondefence)
-    obj_linus.hp -= (damagetaken - obj_linus.weapondefence)
-    obj_remi.hp -= (damagetaken - obj_remi.weapondefence)
-    obj_ivanka.hp -= (damagetaken - obj_ivanka.weapondefence)
-    hashappened=true
+    if (hashappened==false)
+    {
+        global.money += global.state1moneygain*global.rep
+        hashappened = true
+    }
 }
-
-
+if(room=Event_state2)
+{
+    if (hashappened==false)
+    {
+        global.money += global.state2moneygain*global.rep
+        hashappened = true
+    }
+}
+if(room=Event_state3)
+{
+    if (hashappened==false)
+    {
+        global.money += global.state3moneygain*global.rep
+        hashappened = true
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_text(x,y,"You have " + string(global.money) + " cash")
 </string>
           </argument>
         </arguments>

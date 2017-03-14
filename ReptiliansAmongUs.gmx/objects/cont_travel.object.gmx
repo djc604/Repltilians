@@ -53,7 +53,7 @@ global.gu = 0;
             <kind>1</kind>
             <string>draw_set_font(fnt);
 
-if(room = Travelling_state1_E) || (room = Travelling_state1_S2) || (room = Travelling_state1_S) || (room = Travelling_state1_H){
+if(room = Travelling_state1_E) || (room = Travelling_state1_S2) || (room = Travelling_state1_S) || (room = Travelling_state1_H) || (room = Travelling_state2_F) || (room = Travelling_state2_H) || (room = Travelling_state2_S2) || (room = Travelling_state2_E) || (room = Travelling_state3_E) || (room = Travelling_state3_H) || (room = Travelling_state3_S) || (room = Travelling_state3_F){
 draw_text(x,y, "You have lost " + string(global.gasuse) + " gas");
 draw_text(x,y, "##You have  " + string(global.gas) + " gas#");
 }
