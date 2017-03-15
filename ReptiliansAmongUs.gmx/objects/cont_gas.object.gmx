@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-2</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>global.gas = 200;
-global.gasuse = 50;
 </string>
           </argument>
         </arguments>
@@ -49,10 +48,10 @@ global.gasuse = 50;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt);
+            <string>draw_set_font(font1);
 
-draw_text(x,y, "You have lost " + string(global.gasuse) + " gas");
-draw_text(x,y, "##You have  " + string(global.gas) + " gas#");
+draw_set_color(c_black)
+draw_text(x,y, global.gas);
 </string>
           </argument>
         </arguments>

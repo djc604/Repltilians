@@ -52,7 +52,7 @@ hashappened = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>damagetaken = random_range(30,40) 
+            <string>damagetaken = round(random_range(30,40))
 
 if(hashappened = false)
 {

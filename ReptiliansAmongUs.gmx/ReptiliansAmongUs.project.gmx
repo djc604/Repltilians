@@ -106,6 +106,7 @@
     </sprites>
     <sprite>sprites\spr_textbox</sprite>
     <sprite>sprites\spr_HUD</sprite>
+    <sprite>sprites\spr_HUDhalf</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
@@ -165,6 +166,7 @@
     <objects name="buttons">
       <object>objects\obj_overworld</object>
       <object>objects\obj_gotoshop</object>
+      <object>objects\obj_gotobattle</object>
       <object>objects\obj_gotofuel</object>
       <object>objects\obj_gotoevent</object>
       <object>objects\obj_gototravel</object>
@@ -199,14 +201,18 @@
       <object>objects\obj_yellowlink3</object>
     </objects>
     <object>objects\obj_HUD</object>
+    <object>objects\obj_HUDhalf</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\USMap</room>
     <room>rooms\Travelling2</room>
-    <room>rooms\Battle1</room>
     <room>rooms\Battle2</room>
     <room>rooms\Battle3</room>
     <room>rooms\test</room>
+    <rooms name="Battles">
+      <room>rooms\Travelling_battle1</room>
+      <room>rooms\Battle1</room>
+    </rooms>
     <rooms name="State1">
       <room>rooms\Travelling_state1_E</room>
       <room>rooms\Event_state1</room>

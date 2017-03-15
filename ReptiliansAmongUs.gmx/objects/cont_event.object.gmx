@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>global.rep = 3
 hashappened = false
+moneygain = 0
 </string>
           </argument>
         </arguments>
@@ -95,7 +96,20 @@ if(room=Event_state3)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x,y,"You have " + string(global.money) + " cash")
+            <string>if(room=Event_state1){
+moneygain = global.state1moneygain*global.rep
+draw_text(x,y,"You have gained" + string(moneygain) + " cash")
+}
+
+if(room=Event_state2){
+moneygain = global.state2moneygain*global.rep
+draw_text(x,y,"You have gained" + string(moneygain) + " cash")
+}
+
+if(room=Event_state2){
+moneygain = global.state3moneygain*global.rep
+draw_text(x,y,"You have gained" + string(moneygain) + " cash")
+}
 </string>
           </argument>
         </arguments>

@@ -52,12 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_overworld" x="1120" y="672" name="inst_2D45E318" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_demi" x="352" y="672" name="inst_17B0169F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_linus" x="544" y="672" name="inst_BA31CC10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cont_battle" x="608" y="256" name="inst_F2EEE007" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_remi" x="736" y="672" name="inst_5167510E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ivanka" x="928" y="672" name="inst_42BCA400" locked="0" code="" scaleX="0.857142865657806" scaleY="0.879999995231628" colour="4294967295" rotation="0"/>
-    <instance objName="obj_HUD" x="480" y="96" name="inst_60730228" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

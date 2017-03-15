@@ -3,7 +3,7 @@
   <spriteName>spr_girl_shoot_front_right</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -100,10 +100,7 @@ draw_sprite(spr_girl_shoot_front_right,0, x,y)
 draw_text(x+40,y-110,hp)
 }
 
-if(room=Battle1) || (room=Battle2) || (room=Battle3)
-{
-    draw_text(view_xview+830,view_yview+130,status)
-}
+draw_text(view_xview+830,view_yview+130,status)
 </string>
           </argument>
         </arguments>

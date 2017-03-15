@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-2</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -48,12 +48,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt);
-
-if(room = Shop_state1) || (room = Shop_state1_S2) || (room = Shop_state2_S2) || (room = Shop_state3)
-{
-    draw_text(x,y, "You have  " + string(global.money) + " cash");
-}
+            <string>draw_set_font(font1)
+draw_set_color(c_black)
+draw_text(x,y,global.money)
 </string>
           </argument>
         </arguments>
