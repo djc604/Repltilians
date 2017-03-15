@@ -102,6 +102,7 @@
         <sprite>sprites\spr_damon</sprite>
         <sprite>sprites\spr_justin</sprite>
         <sprite>sprites\spr_mchaela</sprite>
+        <sprite>sprites\spr_JC</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_textbox</sprite>
@@ -147,6 +148,7 @@
       <object>objects\cont_event</object>
       <object>objects\obj_event2</object>
       <object>objects\obj_event3</object>
+      <object>objects\cont_fuel</object>
     </objects>
     <objects name="States">
       <object>objects\obj_spec1</object>
@@ -191,6 +193,7 @@
       <object>objects\obj_damon</object>
       <object>objects\obj_justin</object>
       <object>objects\obj_mchaela</object>
+      <object>objects\obj_JC</object>
     </objects>
     <objects name="NPC">
       <object>objects\dial_stat1</object>
@@ -214,13 +217,16 @@
   <rooms name="rooms">
     <room>rooms\USMap</room>
     <room>rooms\Travelling2</room>
-    <room>rooms\Battle3</room>
     <room>rooms\test</room>
     <rooms name="Battles">
       <room>rooms\Travelling_battle1</room>
       <room>rooms\Battle1</room>
       <room>rooms\Travelling_battle2</room>
       <room>rooms\Battle2</room>
+      <room>rooms\Travelling_battle3</room>
+      <room>rooms\Battle3</room>
+      <room>rooms\Travelling_battle4</room>
+      <room>rooms\Battle4</room>
     </rooms>
     <rooms name="State1">
       <room>rooms\Travelling_state1_E</room>

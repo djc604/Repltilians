@@ -119,6 +119,12 @@ room_goto(Battle1)
 if(room=Travelling_battle2){
 room_goto(Battle2)
 }
+if(room=Travelling_battle3){
+room_goto(Battle3)
+}
+if(room=Travelling_battle4){
+room_goto(Battle4)
+}
 </string>
           </argument>
         </arguments>

@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.day += 1;
-global.damage = 0;
+            <string>global.damage = 0;
 global.weapondefence = 5;
 damagetaken = 0
 hashappened = false

@@ -109,7 +109,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(Battle1)
+            <string>global.state += 1;
+room_goto(Travelling_battle4)
 </string>
           </argument>
         </arguments>
