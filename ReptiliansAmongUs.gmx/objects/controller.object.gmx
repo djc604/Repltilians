@@ -28,7 +28,7 @@
             <string>///set the day
 
 global.state = 0
-global.day = 1
+global.day = 0
 </string>
           </argument>
         </arguments>
