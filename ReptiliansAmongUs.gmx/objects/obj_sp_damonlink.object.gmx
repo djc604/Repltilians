@@ -25,14 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_index = 1
+            <string>//image_index = 1
 
 instance_create (x,y,dial_sp_damon)
 
-image_index = 0
+//image_index = 0
 
-image_speed = 0
-depth = -y
+//image_speed = 0
+//depth = -y
 </string>
           </argument>
         </arguments>

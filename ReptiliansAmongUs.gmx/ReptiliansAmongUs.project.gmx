@@ -141,9 +141,7 @@
       <object>objects\cont_battle2</object>
       <object>objects\cont_battle3</object>
       <object>objects\controller</object>
-      <object>objects\cont_icons</object>
       <object>objects\obj_DayCounter</object>
-      <object>objects\cont_menu</object>
       <object>objects\cont_gas</object>
       <object>objects\cont_money</object>
       <object>objects\cont_event</object>

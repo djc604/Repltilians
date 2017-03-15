@@ -104,6 +104,7 @@ if (hp &lt; 0)
           <argument>
             <kind>1</kind>
             <string>draw_set_font(fnt)
+draw_set_color(c_black)
 
 if (room=Hosp_state1) || (room=Hosp_state2) || (room=Hosp_state3){
 draw_sprite(spr_big_shoot_right,0, x,y)
