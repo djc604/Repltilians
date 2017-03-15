@@ -28,7 +28,7 @@
             <string>hp = 100;
 status = "";
 damagetaken = 0
-weapondefence = 5
+weapondefence = 0
 </string>
           </argument>
         </arguments>
@@ -37,51 +37,41 @@ weapondefence = 5
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>///Health Status
-if (hp = 100)
-{
-    status = "Fine";
-}
-
-if (hp &gt; 66) &amp;&amp; (hp &lt; 100)
-{
-    status = "Slightly Injured";
-}
-
-if (hp &gt; 33) &amp;&amp; (hp &lt; 66)
-{
-    status = "Injured";
-}
-
-if (hp &gt; 1) &amp;&amp; (hp &lt; 33)
-{
-    status = "Severely Injured";
-}
-
-if (hp &lt;= 0)
-{
-    status = "Dead";
-}
-
-if (hp &lt; 0)
-{
-    hp = 0
-}
-</string>
+            <kind>9</kind>
+            <script>scr_health</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -113,6 +103,11 @@ draw_text(x+40,y-110,hp)
 
 draw_text(view_xview+275,view_yview+130,status)
 
+draw_text(view_xview+325,view_yview+160,weapondefence)
+
+if(room=Shop_state1_S2) || (room=Shop_state1) || (room=Shop_state2_S2) || (room=Shop_state3){
+draw_sprite(spr_big_shoot_right,0, 192,544)
+}
 </string>
           </argument>
         </arguments>

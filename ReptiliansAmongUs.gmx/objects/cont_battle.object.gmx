@@ -25,10 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.damage = 0;
+            <string>global.mindamage = 0
+global.maxdamage = 0
 global.weapondefence = 5;
-damagetaken = 0
+
 hashappened = false
+
+damagetaken1 = 0
+damagetaken2 = 0
+damagetaken3 = 0
+damagetaken4 = 0
+
+
 </string>
           </argument>
         </arguments>
@@ -51,13 +59,20 @@ hashappened = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>damagetaken = round(random_range(10,20))
+            <string>global.mindamage = irandom_range(0,10)
+global.maxdamage = irandom_range(30,50)
+
+damagetaken1 = irandom_range(global.mindamage,global.maxdamage)
+damagetaken2 = irandom_range(global.mindamage,global.maxdamage)
+damagetaken3 = irandom_range(global.mindamage,global.maxdamage)
+damagetaken4 = irandom_range(global.mindamage,global.maxdamage)
+
 if(hashappened = false)
 {
-    obj_demi.hp -= (damagetaken - obj_demi.weapondefence)
-    obj_linus.hp -= (damagetaken - obj_linus.weapondefence)
-    obj_remi.hp -= (damagetaken - obj_remi.weapondefence)
-    obj_ivanka.hp -= (damagetaken - obj_ivanka.weapondefence)
+    obj_demi.hp -= (damagetaken1 - obj_demi.weapondefence)
+    obj_linus.hp -= (damagetaken2 - obj_linus.weapondefence)
+    obj_remi.hp -= (damagetaken3 - obj_remi.weapondefence)
+    obj_ivanka.hp -= (damagetaken4 - obj_ivanka.weapondefence)
     hashappened=true
 }
 

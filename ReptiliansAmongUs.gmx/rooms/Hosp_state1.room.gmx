@@ -52,6 +52,11 @@
   </views>
   <instances>
     <instance objName="obj_overworld" x="1184" y="768" name="inst_148340AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cont_UI_hosp" x="974" y="742" name="inst_459ADB26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hosp_demi" x="352" y="653" name="inst_70A33F32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hosp_linus" x="544" y="659" name="inst_24C1673B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hosp_remi" x="740" y="656" name="inst_7382DF78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hosp_ivanka" x="930" y="656" name="inst_E9012B65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

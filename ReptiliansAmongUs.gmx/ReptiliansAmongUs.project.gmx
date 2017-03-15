@@ -108,6 +108,7 @@
     <sprite>sprites\spr_textbox</sprite>
     <sprite>sprites\spr_HUD</sprite>
     <sprite>sprites\spr_HUDhalf</sprite>
+    <sprite>sprites\spr_hospbutton</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
@@ -141,10 +142,13 @@
       <object>objects\cont_battle</object>
       <object>objects\cont_battle2</object>
       <object>objects\cont_battle3</object>
+      <object>objects\cont_battle4</object>
       <object>objects\controller</object>
       <object>objects\obj_DayCounter</object>
-      <object>objects\cont_gas</object>
-      <object>objects\cont_money</object>
+      <object>objects\cont_UI_gas</object>
+      <object>objects\cont_UI_rep</object>
+      <object>objects\cont_UI_money</object>
+      <object>objects\cont_UI_hosp</object>
       <object>objects\cont_event</object>
       <object>objects\obj_event2</object>
       <object>objects\obj_event3</object>
@@ -174,6 +178,14 @@
       <object>objects\obj_gototravel</object>
       <object>objects\obj_gotohosp</object>
       <object>objects\obj_gasbuy</object>
+      <object>objects\obj_ug_demi</object>
+      <object>objects\obj_ug_linus</object>
+      <object>objects\obj_ug_remi</object>
+      <object>objects\obj_ug_ivanka</object>
+      <object>objects\obj_hosp_demi</object>
+      <object>objects\obj_hosp_linus</object>
+      <object>objects\obj_hosp_remi</object>
+      <object>objects\obj_hosp_ivanka</object>
     </objects>
     <object>objects\obj_car</object>
     <object>objects\obj_city</object>

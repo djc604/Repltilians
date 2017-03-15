@@ -1,25 +1,21 @@
 ///Health Status
-if (hp = 100)
+if (hp > 90)
 {
     status = "Fine";
 }
-
-if (hp > 66) && (hp < 100)
+else if (hp > 56) && (hp < 90)
 {
     status = "Slightly Injured";
 }
-
-if (hp > 33) && (hp < 66)
+else if (hp > 23) && (hp < 56)
 {
     status = "Injured";
 }
-
-if (hp > 1) && (hp < 33)
+else if (hp > 1) && (hp < 23)
 {
     status = "Severely Injured";
 }
-
-if (hp <= 0)
+else if (hp <= 0)
 {
     status = "Dead";
 }

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.rep = 3
+            <string>//global.rep = 3
 hashappened3 = false
 
 global.moneygain3 = 0

@@ -52,6 +52,11 @@
   </views>
   <instances>
     <instance objName="obj_gototravel" x="1184" y="768" name="inst_5EA4D5E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hosp_linus" x="542" y="661" name="inst_409FDB2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hosp_remi" x="735" y="661" name="inst_3E45E092" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hosp_ivanka" x="929" y="657" name="inst_1E759647" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hosp_demi" x="351" y="659" name="inst_CF6135C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cont_UI_hosp" x="288" y="320" name="inst_FFC136C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

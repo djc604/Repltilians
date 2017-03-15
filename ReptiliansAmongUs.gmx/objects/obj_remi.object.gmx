@@ -28,7 +28,7 @@
             <string>hp = 100;
 status = "";
 damagetaken = 0
-weapondefence = 3
+weapondefence = 0
 </string>
           </argument>
         </arguments>
@@ -101,6 +101,12 @@ draw_text(x+40,y-110,hp)
 }
 
 draw_text(view_xview+645,view_yview+130,status)
+
+draw_text(view_xview+700,view_yview+160,weapondefence)
+
+if(room=Shop_state1_S2) || (room=Shop_state1) || (room=Shop_state2_S2) || (room=Shop_state3){
+draw_sprite(spr_red_shoot_right,0, 800,544)
+}
 </string>
           </argument>
         </arguments>

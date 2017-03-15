@@ -3,37 +3,11 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-2</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///set the gas use
-//global.gas = 100;
-global.gasuse = 50;
-global.gu = 0;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -51,11 +25,9 @@ global.gu = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt);
-
-if(room = Travelling_state1_E) || (room = Travelling_state1_S2) || (room = Travelling_state1_S)|| (room = Travelling_state1_H) || (room = Travelling_state2_F) || (room = Travelling_state2_H) || (room = Travelling_state2_S2) || (room = Travelling_state2_E) || (room = Travelling_state3_E) || (room = Travelling_state3_H) || (room = Travelling_state3_S) || (room = Travelling_state3_F) || (room = Travelling_battle1) || (room = Travelling_battle2){
-draw_text(x,y, "You have lost " + string(global.gasuse) + " gas");
-}
+            <string>draw_set_font(font1);
+draw_set_color(c_black)
+draw_text(x,y, global.rep);
 </string>
           </argument>
         </arguments>

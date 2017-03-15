@@ -29,6 +29,7 @@
 
 global.state = 0
 global.day = 0
+global.rep = 3
 </string>
           </argument>
         </arguments>
