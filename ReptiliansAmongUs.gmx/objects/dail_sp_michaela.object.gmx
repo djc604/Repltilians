@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string(" Hey guys, my mommy Michaela has#a second house around here,#you wanna go see if she’s home?")
-text2 = string (" She can probably help us get into the White House. ")
-text3 = string (" I think she got a job there, last I heard. ")
+            <string>text1 = string(" Hey guys, my mommy Michaela#has a second house around here,#you wanna go see if she’s home?")
+text2 = string (" She can probably help us#get into the White House. ")
+text3 = string (" I think she got a job there,#last I heard. ")
 
 talk = 1
 
