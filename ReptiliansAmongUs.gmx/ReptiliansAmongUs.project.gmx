@@ -147,6 +147,8 @@
       <object>objects\cont_gas</object>
       <object>objects\cont_money</object>
       <object>objects\cont_event</object>
+      <object>objects\obj_event2</object>
+      <object>objects\obj_event3</object>
     </objects>
     <objects name="States">
       <object>objects\obj_spec1</object>
@@ -206,12 +208,13 @@
   <rooms name="rooms">
     <room>rooms\USMap</room>
     <room>rooms\Travelling2</room>
-    <room>rooms\Battle2</room>
     <room>rooms\Battle3</room>
     <room>rooms\test</room>
     <rooms name="Battles">
       <room>rooms\Travelling_battle1</room>
       <room>rooms\Battle1</room>
+      <room>rooms\Travelling_battle2</room>
+      <room>rooms\Battle2</room>
     </rooms>
     <rooms name="State1">
       <room>rooms\Travelling_state1_E</room>

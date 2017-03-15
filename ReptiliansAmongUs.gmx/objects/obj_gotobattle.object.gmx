@@ -116,6 +116,9 @@
             <string>if(room=Travelling_battle1){
 room_goto(Battle1)
 }
+if(room=Travelling_battle2){
+room_goto(Battle2)
+}
 </string>
           </argument>
         </arguments>
