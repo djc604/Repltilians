@@ -141,6 +141,7 @@
       <object>objects\cont_battle</object>
       <object>objects\cont_battle2</object>
       <object>objects\cont_battle3</object>
+      <object>objects\cont_battle4</object>
       <object>objects\controller</object>
       <object>objects\obj_DayCounter</object>
       <object>objects\cont_gas</object>
@@ -196,11 +197,11 @@
       <object>objects\obj_JC</object>
     </objects>
     <objects name="NPC">
-      <object>objects\dial_stat1</object>
       <object>objects\dial_sp_damon</object>
       <object>objects\dial_sp_justin</object>
       <object>objects\dial_sp_jc</object>
       <object>objects\dail_sp_michaela</object>
+      <object>objects\dial_stat1</object>
       <object>objects\dial_stat2</object>
       <object>objects\dial_stat3</object>
       <object>objects\obj_yellowlink</object>

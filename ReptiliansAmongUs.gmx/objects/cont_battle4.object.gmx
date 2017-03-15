@@ -2,7 +2,7 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,16 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string("You are Canadien, oui Linus?")
-text2 = string ("Yeah, why?")
-text3 = string ("Alors pourquoi tu ne parles pas#Français?")
-text4 = string ("Im from Vancouver")
-text5 = string ("Ah, that makes sense")
-
-talk = 1
-
-out = string("")
-spd = 0
+            <string>global.damage = 0;
+global.weapondefence = 5;
+damagetaken = 0
+hashappened = false
 </string>
           </argument>
         </arguments>
@@ -57,97 +51,16 @@ spd = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (talk = 1)
-{
-    out = string_copy (text1,1,spd)
-}
-if (talk = 2)
-{
-    out = string_copy (text2,1,spd)
-}
-if (talk = 3)
-{
-    out = string_copy (text3,1,spd)
-}
-if (talk = 4)
-{
-    out = string_copy (text4,1,spd)
-}
-if (talk = 5)
-{
-    out = string_copy (text5,1,spd)
-}
+            <string>damagetaken = round(random_range(30,40))
 
-spd += 0.5
-
-if (mouse_check_button_pressed(mb_left))
+if(hashappened = false)
 {
-    talk += 1
-    spd = 0
+    obj_demi.hp -= (damagetaken - obj_demi.weapondefence)
+    obj_linus.hp -= (damagetaken - obj_linus.weapondefence)
+    obj_remi.hp -= (damagetaken - obj_remi.weapondefence)
+    obj_ivanka.hp -= (damagetaken - obj_ivanka.weapondefence)
+    hashappened=true
 }
-
-
-if (talk &gt; 5)
-{
-    instance_destroy()
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_set_font(fnt)
-draw_set_color(c_white)
-draw_set_valign(fa_top)
-draw_set_halign(fa_left)
-
-if (talk = 1)
-{
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
-}
-
-if (talk = 2)
-{
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
-}
-
-if (talk = 3)
-{
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
-}
-
-if (talk = 4)
-{
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
-}
-
-if (talk = 5)
-{
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
-}
-
 </string>
           </argument>
         </arguments>
