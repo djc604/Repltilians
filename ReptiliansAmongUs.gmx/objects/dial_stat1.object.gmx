@@ -121,31 +121,31 @@ draw_set_halign(fa_left)
 if (talk = 1)
 {
     draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 2)
 {
     draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 3)
 {
     draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 4)
 {
     draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 5)
 {
     draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 </string>

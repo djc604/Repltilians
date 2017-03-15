@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string(" We should go to Justin’s secret base in the Colorado Rockies. ")
-text2 = string (" I’ve promised Justin we’d go drop off the backup flash drive, ")
-text3 = string (" just in case something happens to us. ")
+            <string>text1 = string(" We should go to Justin’s secret#base in the Colorado Rockies. ")
+text2 = string (" I’ve promised Justin to dropoff#the backup flash drive, ")
+text3 = string (" in case something happens#to us. ")
 
 talk = 1
 
@@ -111,19 +111,19 @@ draw_set_halign(fa_left)
 
 if (talk = 1)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 2)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 3)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 

@@ -136,7 +136,7 @@ draw_set_halign(fa_left)
 if (talk = 1)
 {
     draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 2)
@@ -148,34 +148,34 @@ if (talk = 2)
 if (talk = 3)
 {
     draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 4)
 {
     draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 5)
 {
     draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 if (talk = 6)
 {
     draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 if (talk = 7)
 {
     draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 if (talk = 8)
 {
     draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-75, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 </string>

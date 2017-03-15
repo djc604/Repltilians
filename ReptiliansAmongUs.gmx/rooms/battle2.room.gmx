@@ -54,6 +54,7 @@
     <instance objName="obj_overworld" x="1120" y="672" name="inst_2D45E318" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_HUD" x="480" y="96" name="inst_60730228" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cont_battle2" x="576" y="384" name="inst_DCE027DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="dial_sp_justin" x="64" y="384" name="inst_8DBF5ACB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
