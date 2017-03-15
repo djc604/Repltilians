@@ -196,11 +196,13 @@
     </objects>
     <objects name="NPC">
       <object>objects\dial_stat1</object>
+      <object>objects\dial_sp_damon</object>
       <object>objects\dial_stat2</object>
       <object>objects\dial_stat3</object>
       <object>objects\obj_yellowlink</object>
       <object>objects\obj_yellowlink2</object>
       <object>objects\obj_yellowlink3</object>
+      <object>objects\obj_sp_damonlink</object>
     </objects>
     <object>objects\obj_HUD</object>
     <object>objects\obj_HUDhalf</object>
