@@ -119,7 +119,7 @@ if (mouse_check_button_pressed(mb_left))
 }
 
 
-if (talk &gt; 11)
+if (talk &gt; 5)
 {
     instance_destroy()
 }
@@ -171,7 +171,7 @@ if (talk = 3)
 if (talk = 4)
 {
     draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-140, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 5)

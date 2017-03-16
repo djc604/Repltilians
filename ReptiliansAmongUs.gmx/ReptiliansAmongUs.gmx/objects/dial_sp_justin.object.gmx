@@ -25,10 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string(" We should go to my friend Justin’s#secret base in the Colorado Rockies.#I’ve promised Justin we’d go#drop off the backup flash drive,#just in case something happens to us. ")
-text2 = string (" All our sensitive information and proof#about Reptilians is in a flash drive?? ")
-text3 = string (" Relax, it’ll be safe here.#If something happens to us,#Justin will send out all the#info over the internet. ")
-text4 = string (" And as a backup, the signal will also#be sent through underground wires to a#network of backup computers. ")
+            <string>text1 = string(" We should go to Justin’s secret#base in the Colorado Rockies. ")
+text2 = string (" I’ve promised Justin to dropoff#the backup flash drive, ")
+text3 = string (" in case something happens#to us. ")
 
 talk = 1
 
@@ -68,11 +67,6 @@ if (talk = 3)
 {
     out = string_copy (text3,1,spd)
 }
-if (talk = 4)
-{
-    out = string_copy (text4,1,spd)
-}
-
 
 
 spd += 0.5
@@ -84,9 +78,9 @@ if (mouse_check_button_pressed(mb_left))
 }
 
 
-if (talk &gt; 4)
+if (talk &gt; 3)
 {
-    instance_destroy()
+        instance_destroy()
 }
 </string>
           </argument>
@@ -123,7 +117,7 @@ if (talk = 1)
 
 if (talk = 2)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
@@ -133,11 +127,8 @@ if (talk = 3)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
-if (talk = 4)
-{
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-140, out)
-}
+
+
 </string>
           </argument>
         </arguments>

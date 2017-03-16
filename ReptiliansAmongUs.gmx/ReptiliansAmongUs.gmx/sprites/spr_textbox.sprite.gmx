@@ -29,5 +29,6 @@
     <frame index="6">images\spr_textbox_6.png</frame>
     <frame index="7">images\spr_textbox_7.png</frame>
     <frame index="8">images\spr_textbox_8.png</frame>
+    <frame index="9">images\spr_textbox_9.png</frame>
   </frames>
 </sprite>
