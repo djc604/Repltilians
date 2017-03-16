@@ -25,14 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string(" Hey guys, my mom Michaela has a second house around here, you wanna go see if she’s home? She can probably help us get into the White House. I think she got a job there, last I heard. ")
+            <string>text1 = string (" Hey guys, my mom Michaela has a second house around here,#you wanna go see if she’s home?#She can probably help us get into the White House.#I think she got a job there,#last I heard. ")
 text2 = string (" Sure man, whatever. ")
 text3 = string (" Remi, must you always be playing phone games? ")
 text4 = string (" Shh, I’m concentrating! ")
 text5 = string (" *Sigh* ")
 text6 = string ( " Wait, our Whitehouse contact is Ivanka’s mother? " )
 text7 = string (" Yea. ")
-text8 = string ("  So when you say “I think she’s got a job in the whitehouse” you really mean “my mother is our contact but I failed to mention this until just now, a couple hours out from the meetup”? ")
+text8 = string ("  So when you say “I think she’s got a job in the whitehouse”#you really mean “my mother is our#contact but I failed to mention this until#just now, a couple hours#out from the meetup”? ")
 text9 = string (" Whatever. ")
 text10 = string (" Uhuh, so- ")
 text11 = string (" Maybe you should drop this conversation, Linus. ")
@@ -159,31 +159,31 @@ draw_set_halign(fa_left)
 
 if (talk = 1)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 2)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 3)
 {
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 4)
 {
-    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 5)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
@@ -195,31 +195,31 @@ if (talk = 6)
 
 if (talk = 7)
 {
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 8)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 9)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 10)
 {
-    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 11)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
