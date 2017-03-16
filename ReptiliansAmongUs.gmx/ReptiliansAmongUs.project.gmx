@@ -216,6 +216,7 @@
     <objects name="NPC">
       <object>objects\dial_stat1</object>
       <object>objects\dial_sp_damon</object>
+      <object>objects\dial_sp_damon2</object>
       <object>objects\dial_sp_justin</object>
       <object>objects\dail_sp_michaela</object>
       <object>objects\dial_sp_jc</object>
