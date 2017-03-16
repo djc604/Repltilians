@@ -29,7 +29,7 @@
 hashappened3 = false
 
 global.moneygain3 = 0
-
+global.gain3 = 0
 global.state3moneygain = 125
 </string>
           </argument>
@@ -55,7 +55,9 @@ global.state3moneygain = 125
             <kind>1</kind>
             <string>if (hashappened3==false)
 {
-    global.money += global.state3moneygain*global.rep
+    global.gain3 = global.state3moneygain*global.rep
+    global.gain3 *= 10
+    global.money += global.gain3
     hashappened3 = true
 }
 

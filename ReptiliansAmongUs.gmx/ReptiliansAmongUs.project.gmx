@@ -85,6 +85,7 @@
       <sprite>sprites\spr_menu</sprite>
       <sprite>sprites\spr_ebattle</sprite>
       <sprite>sprites\spr_esteal</sprite>
+      <sprite>sprites\spr_efight</sprite>
       <sprite>sprites\spr_back</sprite>
       <sprite>sprites\spr_travel</sprite>
       <sprite>sprites\spr_gas</sprite>
@@ -190,6 +191,7 @@
       <object>objects\obj_hosp_ivanka</object>
       <object>objects\obj_btn_ebattle</object>
       <object>objects\obj_btn_steal</object>
+      <object>objects\obj_btn_fight</object>
     </objects>
     <object>objects\obj_car</object>
     <object>objects\obj_city</object>
@@ -234,7 +236,7 @@
     <room>rooms\USMap</room>
     <room>rooms\Travelling2</room>
     <room>rooms\eBattle</room>
-    <room>rooms\test</room>
+    <room>rooms\gameover</room>
     <rooms name="Battles">
       <room>rooms\Travelling_battle1</room>
       <room>rooms\Battle1</room>
@@ -275,7 +277,6 @@
       <room>rooms\Travelling_state3_F</room>
       <room>rooms\Fuel_state3</room>
     </rooms>
-    <room>rooms\gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

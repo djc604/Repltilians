@@ -113,17 +113,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-
-if (global.gas &gt; 0)
-{
-global.state += 1;
+            <string>global.state += 1;
 room_goto(Fuel_state3)
-}
-else
-{
-    room_goto(eBattle)
-}
+
 </string>
           </argument>
         </arguments>

@@ -35,6 +35,8 @@ moneygain3 = 0
 global.state1moneygain = 75
 global.state2moneygain = 100
 global.state3moneygain = 125
+
+global.gain = 0;
 </string>
           </argument>
         </arguments>
@@ -59,7 +61,9 @@ global.state3moneygain = 125
             <kind>1</kind>
             <string>if (hashappened==false)
 {
-    global.money += global.state1moneygain*global.rep
+    global.gain = global.state1moneygain*global.rep
+    global.gain *= 10
+    global.money += global.gain
     hashappened = true
 }
 
@@ -86,8 +90,8 @@ global.state3moneygain = 125
           <argument>
             <kind>1</kind>
             <string>if(room=Event_state1){
-moneygain = global.state1moneygain*global.rep
-draw_text(x,y,"You have gained $" + string(moneygain))
+//moneygain = global.state1moneygain*global.rep
+draw_text(x,y,"You have gained $" + string(global.gain))
 }
 
 if(room=Event_state2){

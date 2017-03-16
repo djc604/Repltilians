@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.gas = 250
+            <string>global.gas = 200
 </string>
           </argument>
         </arguments>

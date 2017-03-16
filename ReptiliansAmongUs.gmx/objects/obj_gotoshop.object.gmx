@@ -113,8 +113,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//if (global.gas &gt; 0)
-//{
+            <string>if (global.gas &gt; 0)
+{
     global.state += 1;
     if(room=Travelling_state1_S2){
     room_goto(Shop_state1_S2)
@@ -128,7 +128,7 @@
     if(room=Travelling_state3_S){
     room_goto(Shop_state3)
     }
-/*}
+}
 else
 {
     room_goto(eBattle)

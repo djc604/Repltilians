@@ -114,6 +114,7 @@ room_goto(eBattle)
 }
 else
 {
+    global.state += 1
     room_goto(Travelling_battle3)
 }
 

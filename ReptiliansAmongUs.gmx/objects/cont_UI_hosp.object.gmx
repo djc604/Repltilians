@@ -60,15 +60,19 @@ global.costmultiplier = 3
             <kind>1</kind>
             <string>global.heal = 100-obj_demi.hp
 global.healcost = global.heal*global.costmultiplier
+global.healcost *= 10
 
 global.heal2 = 100-obj_linus.hp
 global.healcost2 = global.heal2*global.costmultiplier
+global.healcost2 *= 10
 
 global.heal3 = 100-obj_remi.hp
 global.healcost3 = global.heal3*global.costmultiplier
+global.healcost3 *= 10
 
 global.heal4 = 100-obj_ivanka.hp
 global.healcost4 = global.heal4*global.costmultiplier
+global.healcost4 *= 10
 </string>
           </argument>
         </arguments>
