@@ -113,17 +113,25 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(room=Travelling_battle1){
-room_goto(Battle1)
+            <string>
+if (global.gas &gt; 0)
+{
+    if(room=Travelling_battle1){
+    room_goto(Battle1)
+    }
+    if(room=Travelling_battle2){
+    room_goto(Battle2)
+    }
+    if(room=Travelling_battle3){
+    room_goto(Battle3)
+    }
+    if(room=Travelling_battle4){
+    room_goto(Battle4)
+    }
 }
-if(room=Travelling_battle2){
-room_goto(Battle2)
-}
-if(room=Travelling_battle3){
-room_goto(Battle3)
-}
-if(room=Travelling_battle4){
-room_goto(Battle4)
+else
+{
+    room_goto(eBattle)
 }
 </string>
           </argument>

@@ -30,6 +30,7 @@
 global.state = 0
 global.day = 0
 global.rep = 3
+global.roomcamefrom = room
 </string>
           </argument>
         </arguments>
@@ -53,15 +54,12 @@ global.rep = 3
           <argument>
             <kind>1</kind>
             <string>///draw the states
-if (keyboard_check_pressed(vk_enter))
-{
-    global.state += 1
+if (keyboard_check_pressed(vk_enter)){
+global.state += 1
 }
-if (keyboard_check_pressed(vk_backspace))
-{
-    global.state -= 1
+if (keyboard_check_pressed(vk_backspace)){
+global.state -= 1
 }
-
 
 if (room = USMap)
 {

@@ -113,8 +113,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.day += 1;
+            <string>
 
+
+if (global.gas &gt; 0)
+{
+global.day += 1;
 if (room = Event_state1){
 room_goto(Travelling_state1_S2)
 }
@@ -123,6 +127,11 @@ room_goto(Travelling_state2_S2)
 }
 if(room = Event_state3){
 room_goto(Travelling_state3_H)
+}
+}
+else
+{
+    room_goto(eBattle)
 }
 </string>
           </argument>

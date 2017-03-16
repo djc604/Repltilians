@@ -113,7 +113,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(room = Travelling_state1_H){
+            <string>if (global.gas &gt; 0)
+{
+if(room = Travelling_state1_H){
 room_goto(Hosp_state1)
 }
 if(room = Travelling_state2_H){
@@ -121,6 +123,11 @@ room_goto(Hosp_state2)
 }
 if(room = Travelling_state3_H){
 room_goto(Hosp_state3)
+}
+}
+else
+{
+    room_goto(eBattle)
 }
 </string>
           </argument>

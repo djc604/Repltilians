@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_gototravel" x="1184" y="768" name="inst_5EA4D5E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gototravel" x="1184" y="608" name="inst_5EA4D5E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hosp_linus" x="542" y="661" name="inst_409FDB2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hosp_remi" x="735" y="661" name="inst_3E45E092" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hosp_ivanka" x="929" y="657" name="inst_1E759647" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
