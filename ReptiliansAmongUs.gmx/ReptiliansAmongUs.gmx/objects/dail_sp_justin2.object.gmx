@@ -25,17 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string("Hey guys, I don’t want to be a downer#or anything, but there’s gotta be a#downside to this car, eh?")
-text2 = string ("Well, da. It is quite slow… and uses#twenty times the fuel of ordinary automobile.")
-text3 = string ("Twenty times?! Mon Dieu, we’re going#to have to find some serious income here!")
-text4 = string ("I’m setting up some public events for#us. People can donate and we tell them all#about the truth, all about Reptilians.#As long as we have a good reputation,#I’m sure lots of people#will show up and donate!")
-text5 = string (" Excellent, comrade! Well done! ")
-text6 = string (" We should stop at Reno while we go#through Nevada. My...comrade Damon lives here, he can help us learn more about the Reptilians. ")
-text7 = string (" Oui, and why is that? ")
-text8 = string (" He has...connections. ")
-text9 = string (" We shouldn’t make too many pit-stops,#speed is kind of important here okay guys? ")
-text10 = string (" Linus stop bitching, I’m trying to#write a blog post about our events. ")
-text11 = string (" *Frowns* ")
+            <string>text1 = string(" Yoooo guys, welcome to my bat cave! ")
+text2 = string (" How far under the mountain are we right now? ")
+text3 = string (" 70 meters man! Safe, secure, totally hidden.#So, you got the flash drive? ")
+text4 = string (" Hey man, yea here it is. Keep it safe.#Oh man we got into one hell of a firefight getting here!#They were waiting for us on the highway. ")
+text5 = string (" Yea dudes, I was watching you with#one of my drones!#Wanted to see for myself if you all died. ")
+text6 = string ( " Comrade, may I ask how you have eye no more?  " )
+text7 = string (" Cool story, I went over to France a few years#back to help the underground#resistance fight the Reptilians.#Me and Remi fought together a few times. ")
+text8 = string ("  We were planning a kidnapping of a Reptilian#official when one of our guys pulled out a grenade#and dropped it on the#ground in front of us all.#Guess he was a Reptilian in disguise. ")
+text9 = string ("  Yea, well Justin reacted fast and pushed me#and my friend to the ground just before it went off,#and covered us with his body.#Shrapnel took out his eye. ")
+text10 = string (" Jesus. Remi, I had no idea you were that#involved in the resistance.#That’s like, inspirational man. ")
+text11 = string (" Don’t be too inspired. We were driven out of France in the end.#So many friends died for nothing…. ")
+text12 = string (" ...this time, it’ll be different. ")
+text13 = string (" ...I think need more vodka. ")
 
 talk = 1
 
@@ -86,27 +88,35 @@ if (talk = 5)
 
 if (talk = 6)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text6,1,spd)
 }
 if (talk = 7)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text7,1,spd)
 }
 if (talk = 8)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text8,1,spd)
 }
 if (talk = 9)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text9,1,spd)
 }
 if (talk = 10)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text10,1,spd)
 }
 if (talk = 11)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text11,1,spd)
+}
+if (talk = 12)
+{
+    out = string_copy (text12,1,spd)
+}
+if (talk = 13)
+{
+    out = string_copy (text13,1,spd)
 }
 
 
@@ -119,7 +129,7 @@ if (mouse_check_button_pressed(mb_left))
 }
 
 
-if (talk &gt; 11)
+if (talk &gt; 13)
 {
     instance_destroy()
 }
@@ -152,31 +162,31 @@ draw_set_halign(fa_left)
 
 if (talk = 1)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 2)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 3)
 {
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 4)
 {
-    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-140, out)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 5)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
@@ -188,33 +198,49 @@ if (talk = 6)
 
 if (talk = 7)
 {
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 8)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 9)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 10)
 {
-    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 11)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
+
+if (talk = 12)
+{
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+}
+
+if (talk = 13)
+{
+    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+}
+
+
+
+
 </string>
           </argument>
         </arguments>

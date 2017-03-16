@@ -3,8 +3,8 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>0</visible>
-  <depth>-1</depth>
-  <persistent>-1</persistent>
+  <depth>0</depth>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,12 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///set the day
+            <string>damagetaken1 = irandom_range(global.mindamage,global.maxdamage)
+damagetaken2 = irandom_range(global.mindamage,global.maxdamage)
+damagetaken3 = irandom_range(global.mindamage,global.maxdamage)
+damagetaken4 = irandom_range(global.mindamage,global.maxdamage)
 
-global.state = 0
-global.day = 0
-global.rep = 3
-global.roomcamefrom = room
+hashappened7 = false
+
+damagetaken1 = 0
+damagetaken2 = 0
+damagetaken3 = 0
+damagetaken4 = 0
 </string>
           </argument>
         </arguments>
@@ -53,51 +58,18 @@ global.roomcamefrom = room
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///draw the states
-if (keyboard_check_pressed(vk_enter)){
-global.state += 1
-}
-if (keyboard_check_pressed(vk_backspace)){
-global.state -= 1
-}
+            <string>damagetaken1 = irandom_range(1,30)
+damagetaken2 = irandom_range(1,30)
+damagetaken3 = irandom_range(1,30)
+damagetaken4 = irandom_range(1,30)
 
-if (room = USMap)
+if(hashappened7 = false)
 {
-    if (global.state = 0)
-    { 
-        instance_create(292,523,obj_spec1);
-    }
-    
-    if (global.state = 1)
-    { 
-        instance_create(418,231,obj_state1);
-        instance_create(466,517,obj_state2);
-        instance_create(419,759,obj_state3);
-    }
-    if (global.state = 2)
-    { 
-        instance_create(672,566,obj_spec2);
-    }
-    if (global.state = 3)
-    { 
-        instance_create(884,465,obj_state1b);
-        instance_create(926,605,obj_state2b);
-        instance_create(912,748,obj_state3b);
-    }
-    if (global.state = 4)
-    { 
-        instance_create(1137,612,obj_spec3);
-    }
-    if (global.state = 5)
-    { 
-        instance_create(1234,540,obj_state1c);
-        instance_create(1380,622,obj_state2c);
-        instance_create(1379,704,obj_state3c);
-    }
-    if (global.state = 6)
-    { 
-        instance_create(1607,581,obj_spec4);
-    }
+    obj_demi.hp -= (damagetaken1 - obj_demi.weapondefence)
+    obj_linus.hp -= (damagetaken2 - obj_linus.weapondefence)
+    obj_remi.hp -= (damagetaken3 - obj_remi.weapondefence)
+    obj_ivanka.hp -= (damagetaken4 - obj_ivanka.weapondefence)
+    hashappened7=true
 }
 </string>
           </argument>

@@ -52,7 +52,9 @@
   </views>
   <instances>
     <instance objName="obj_car" x="625" y="623" name="inst_F4A31F6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cont_travel" x="64" y="256" name="inst_52BD3939" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gotobattle" x="1184" y="608" name="inst_9BE34D9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="dail_sp_justin2" x="224" y="256" name="inst_3D74E321" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
