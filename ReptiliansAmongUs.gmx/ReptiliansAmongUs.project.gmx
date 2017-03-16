@@ -81,6 +81,16 @@
       <sprite>sprites\spr_red_run_right_down</sprite>
     </sprites>
     <sprite>sprites\spr_car</sprite>
+    <sprites name="Portraits">
+      <sprite>sprites\spr_Dmitri</sprite>
+      <sprite>sprites\spr_Linus</sprite>
+      <sprite>sprites\spr_Remi</sprite>
+      <sprite>sprites\spr_Ivanka</sprite>
+      <sprite>sprites\spr_damon_p</sprite>
+      <sprite>sprites\spr_justin_p</sprite>
+      <sprite>sprites\spr_michaela</sprite>
+      <sprite>sprites\spr_JC_P</sprite>
+    </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_menu</sprite>
       <sprite>sprites\spr_ebattle</sprite>
@@ -90,10 +100,6 @@
       <sprite>sprites\spr_travel</sprite>
       <sprite>sprites\spr_gas</sprite>
     </sprites>
-    <sprite>sprites\spr_Dmitri</sprite>
-    <sprite>sprites\spr_Linus</sprite>
-    <sprite>sprites\spr_Remi</sprite>
-    <sprite>sprites\spr_Ivanka</sprite>
     <sprite>sprites\spr_prez1</sprite>
     <sprite>sprites\spr_prez2</sprite>
     <sprites name="icons">
