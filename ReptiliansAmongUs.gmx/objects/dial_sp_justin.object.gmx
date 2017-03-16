@@ -19,15 +19,15 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>dial_sp_justin</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
             <string>text1 = string(" We should go to my friend Justin’s#secret base in the Colorado Rockies.#I’ve promised Justin we’d go#drop off the backup flash drive,#just in case something happens to us. ")
-text2 = string (" All our sensitive information and proof about#Reptilians is in a flash drive?? ")
-text3 = string (" Relax, it’ll be safe here.#If something happens to us,#Justin will send out all the info over the internet. ")
+text2 = string (" All our sensitive information and proof#about Reptilians is in a flash drive?? ")
+text3 = string (" Relax, it’ll be safe here.#If something happens to us,#Justin will send out all the#info over the internet. ")
 text4 = string (" And as a backup, the signal will also#be sent through underground wires to a#network of backup computers. ")
 
 talk = 1
@@ -74,6 +74,7 @@ if (talk = 4)
 }
 
 
+
 spd += 0.5
 
 if (mouse_check_button_pressed(mb_left))
@@ -110,7 +111,7 @@ if (talk &gt; 4)
           <argument>
             <kind>1</kind>
             <string>draw_set_font(fnt)
-draw_set_color(c_green)
+draw_set_color(c_white)
 draw_set_valign(fa_top)
 draw_set_halign(fa_left)
 
@@ -135,10 +136,8 @@ if (talk = 3)
 if (talk = 4)
 {
     draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-140, out)
 }
-
-
 </string>
           </argument>
         </arguments>

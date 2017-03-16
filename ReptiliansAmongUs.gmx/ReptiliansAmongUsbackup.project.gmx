@@ -224,9 +224,11 @@
       <object>objects\dial_sp_damon</object>
       <object>objects\dial_sp_damon2</object>
       <object>objects\dial_sp_justin</object>
-      <object>objects\dial_sp_justin2</object>
+      <object>objects\dail_sp_justin2</object>
       <object>objects\dail_sp_michaela</object>
+      <object>objects\dail_sp_michaela2</object>
       <object>objects\dial_sp_jc</object>
+      <object>objects\dail_sp_jc2</object>
       <object>objects\dial_stat2</object>
       <object>objects\dial_stat3</object>
       <object>objects\obj_yellowlink</object>

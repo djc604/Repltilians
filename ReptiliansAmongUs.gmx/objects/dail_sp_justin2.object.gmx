@@ -25,19 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string(" Hey guys, my mom Michaela has a second house around here, you wanna go see if she’s home? She can probably help us get into the White House. I think she got a job there, last I heard. ")
-text2 = string (" Sure man, whatever. ")
-text3 = string (" Remi, must you always be playing phone games? ")
-text4 = string (" Shh, I’m concentrating! ")
-text5 = string (" *Sigh* ")
-text6 = string ( " Wait, our Whitehouse contact is Ivanka’s mother? " )
-text7 = string (" Yea. ")
-text8 = string ("  So when you say “I think she’s got a job in the whitehouse” you really mean “my mother is our contact but I failed to mention this until just now, a couple hours out from the meetup”? ")
-text9 = string (" Whatever. ")
-text10 = string (" Uhuh, so- ")
-text11 = string (" Maybe you should drop this conversation, Linus. ")
-text12 = string (" Wha- ugh, sure. Fine. ")
-
+            <string>text1 = string(" Yoooo guys, welcome to my bat cave! ")
+text2 = string (" How far under the mountain are we right now? ")
+text3 = string (" 70 meters man! Safe, secure, totally hidden.#So, you got the flash drive? ")
+text4 = string (" Hey man, yea here it is. Keep it safe.#Oh man we got into one hell of a firefight getting here!#They were waiting for us on the highway. ")
+text5 = string (" Yea dudes, I was watching you with#one of my drones!#Wanted to see for myself if you all died. ")
+text6 = string ( " Comrade, may I ask how you have eye no more?  " )
+text7 = string (" Cool story, I went over to France a few years#back to help the underground#resistance fight the Reptilians.#Me and Remi fought together a few times. ")
+text8 = string ("  We were planning a kidnapping of a Reptilian#official when one of our guys pulled out a grenade#and dropped it on the#ground in front of us all.#Guess he was a Reptilian in disguise. ")
+text9 = string ("  Yea, well Justin reacted fast and pushed me#and my friend to the ground just before it went off,#and covered us with his body.#Shrapnel took out his eye. ")
+text10 = string (" Jesus. Remi, I had no idea you were that#involved in the resistance.#That’s like, inspirational man. ")
+text11 = string (" Don’t be too inspired. We were driven out of France in the end.#So many friends died for nothing…. ")
+text12 = string (" ...this time, it’ll be different. ")
+text13 = string (" ...I think need more vodka. ")
 
 talk = 1
 
@@ -114,7 +114,10 @@ if (talk = 12)
 {
     out = string_copy (text12,1,spd)
 }
-
+if (talk = 13)
+{
+    out = string_copy (text13,1,spd)
+}
 
 
 spd += 0.5
@@ -126,7 +129,7 @@ if (mouse_check_button_pressed(mb_left))
 }
 
 
-if (talk &gt; 5)
+if (talk &gt; 13)
 {
     instance_destroy()
 }
@@ -159,31 +162,31 @@ draw_set_halign(fa_left)
 
 if (talk = 1)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 2)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 3)
 {
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 4)
 {
-    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 5)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
@@ -195,39 +198,46 @@ if (talk = 6)
 
 if (talk = 7)
 {
-    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 8)
 {
-    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,6,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 9)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 10)
 {
-    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 11)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,3,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 
 if (talk = 12)
 {
-    draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,4,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
+
+if (talk = 13)
+{
+    draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
+    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+}
+
 
 
 
