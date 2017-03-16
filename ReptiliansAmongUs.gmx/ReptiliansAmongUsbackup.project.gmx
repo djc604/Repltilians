@@ -224,20 +224,24 @@
       <object>objects\dial_sp_damon</object>
       <object>objects\dial_sp_damon2</object>
       <object>objects\dial_sp_justin</object>
-      <object>objects\dail_sp_justin2</object>
-      <object>objects\dail_sp_michaela</object>
-      <object>objects\dail_sp_michaela2</object>
+      <object>objects\dial_sp_justin2</object>
+      <object>objects\dial_sp_michaela</object>
+      <object>objects\dial_sp_michaela2</object>
       <object>objects\dial_sp_jc</object>
-      <object>objects\dail_sp_jc2</object>
+      <object>objects\dial_sp_jc2</object>
       <object>objects\dial_stat2</object>
       <object>objects\dial_stat3</object>
       <object>objects\obj_yellowlink</object>
       <object>objects\obj_yellowlink2</object>
       <object>objects\obj_yellowlink3</object>
       <object>objects\obj_sp_damonlink</object>
+      <object>objects\obj_sp_damonlink2</object>
       <object>objects\obj_sp_justinlink</object>
-      <object>objects\obj_sp_michaela</object>
+      <object>objects\obj_sp_justinlink2</object>
+      <object>objects\obj_sp_michaelalink</object>
+      <object>objects\obj_sp_michaelalink2</object>
       <object>objects\obj_sp_jclink</object>
+      <object>objects\obj_sp_jclink2</object>
     </objects>
     <object>objects\obj_HUD</object>
     <object>objects\obj_HUDhalf</object>
